@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url('OpenSans-VariableFont_wdth,wght.ttf');
+}
+body {
+    /* background-color: darkslategray;
+    color: white */
+    padding: 0;
+    margin:0;
+    font-family: Open Sans, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+table {
+    margin: 2rem;
+}
+caption ,
+th {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.title, .author {
+    width: 20rem;
+}
+.pages, .status, .haveRead, .remove {
+    width: 10rem;
+}
+
+tr {
+    padding: 0.2rem 1rem;
+}
+
+/* tr:nth-child {
+    background-color: rgb(240, 240, 24);
+}  */
+
+td > button { 
+    width: 5rem;
+    background-color: lightgreen;
+    color: darkgreen;
+    border: none;
+    height: 1.6rem;
+    border-radius: 0.8rem;
+}
